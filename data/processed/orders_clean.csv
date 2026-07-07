@@ -1,0 +1,15 @@
+order_id,user_id,date,product_id,quantity,year,month,price,product_category,product_name,line_total
+1,1,2020-03-02 00:00:00+00:00,1,4,2020,3,109.95,men's clothing,"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",439.8
+1,1,2020-03-02 00:00:00+00:00,2,1,2020,3,22.3,men's clothing,Mens Casual Premium Slim Fit T-Shirts ,22.3
+1,1,2020-03-02 00:00:00+00:00,3,6,2020,3,55.99,men's clothing,Mens Cotton Jacket,335.94
+2,1,2020-01-02 00:00:00+00:00,2,4,2020,1,22.3,men's clothing,Mens Casual Premium Slim Fit T-Shirts ,89.2
+2,1,2020-01-02 00:00:00+00:00,1,10,2020,1,109.95,men's clothing,"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",1099.5
+2,1,2020-01-02 00:00:00+00:00,5,2,2020,1,695.0,jewelery,John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet,1390.0
+3,2,2020-03-01 00:00:00+00:00,1,2,2020,3,109.95,men's clothing,"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",219.9
+3,2,2020-03-01 00:00:00+00:00,9,1,2020,3,64.0,electronics,WD 2TB Elements Portable External Hard Drive - USB 3.0 ,64.0
+4,3,2020-01-01 00:00:00+00:00,1,4,2020,1,109.95,men's clothing,"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",439.8
+5,3,2020-03-01 00:00:00+00:00,7,1,2020,3,9.99,jewelery,White Gold Plated Princess,9.99
+5,3,2020-03-01 00:00:00+00:00,8,1,2020,3,10.99,jewelery,Pierced Owl Rose Gold Plated Stainless Steel Double,10.99
+6,4,2020-03-01 00:00:00+00:00,10,2,2020,3,109.0,electronics,SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s,218.0
+6,4,2020-03-01 00:00:00+00:00,12,3,2020,3,114.0,electronics,WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive,342.0
+7,8,2020-03-01 00:00:00+00:00,18,1,2020,3,9.85,women's clothing,MBJ Women's Solid Short Sleeve Boat Neck V ,9.85

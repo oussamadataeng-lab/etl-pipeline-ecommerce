@@ -1,0 +1,72 @@
+2026-06-28 02:24:14,446 - INFO - ================================================================================
+2026-06-28 02:24:14,447 - INFO - DEMARRAGE DU PIPELINE ETL COMPLET
+2026-06-28 02:24:14,447 - INFO - Debut: 2026-06-28 02:24:14
+2026-06-28 02:24:14,447 - INFO - ================================================================================
+2026-06-28 02:24:14,447 - INFO - ETAPE 1/3: EXTRACTION
+2026-06-28 02:24:14,447 - INFO - ======================================================================
+2026-06-28 02:24:14,448 - INFO - DEMARRAGE DE L EXTRACTION
+2026-06-28 02:24:14,448 - INFO - ======================================================================
+2026-06-28 02:24:14,448 - INFO - Extraction des PRODUITS...
+2026-06-28 02:24:15,829 - INFO - 20 produits extraits
+2026-06-28 02:24:16,838 - INFO - Extraction des UTILISATEURS...
+2026-06-28 02:24:17,238 - INFO - 10 utilisateurs extraits
+2026-06-28 02:24:18,250 - INFO - Extraction des COMMANDES...
+2026-06-28 02:24:18,845 - INFO - 14 lignes de commande extraites
+2026-06-28 02:24:18,846 - INFO - EXTRACTION TERMINEE
+2026-06-28 02:24:18,846 - INFO - ETAPE 2/3: TRANSFORMATION
+2026-06-28 02:24:18,847 - INFO - ======================================================================
+2026-06-28 02:24:18,847 - INFO - DEMARRAGE DE LA TRANSFORMATION
+2026-06-28 02:24:18,847 - INFO - ======================================================================
+2026-06-28 02:24:18,847 - INFO - Chargement des donnees brutes...
+2026-06-28 02:24:18,879 - INFO - Transformation des PRODUITS...
+2026-06-28 02:24:18,881 - INFO - 20 produits transformes
+2026-06-28 02:24:18,881 - INFO - Transformation des UTILISATEURS...
+2026-06-28 02:24:18,882 - INFO - 10 utilisateurs transformes
+2026-06-28 02:24:18,882 - INFO - Transformation des COMMANDES...
+2026-06-28 02:24:18,888 - INFO - 14 commandes transformees
+2026-06-28 02:24:18,888 - INFO - Creation des AGREGATIONS...
+2026-06-28 02:24:18,893 - INFO - Agregations creees
+2026-06-28 02:24:18,896 - INFO - products_clean sauvegarde
+2026-06-28 02:24:18,898 - INFO - users_clean sauvegarde
+2026-06-28 02:24:18,902 - INFO - orders_clean sauvegarde
+2026-06-28 02:24:18,904 - INFO - user_summary sauvegarde
+2026-06-28 02:24:18,905 - INFO - product_summary sauvegarde
+2026-06-28 02:24:18,907 - INFO - monthly_summary sauvegarde
+2026-06-28 02:24:18,907 - INFO - TRANSFORMATION TERMINEE
+2026-06-28 02:24:18,907 - INFO - ETAPE 3/3: CHARGEMENT
+2026-06-28 02:24:18,908 - INFO - ======================================================================
+2026-06-28 02:24:18,908 - INFO - DEMARRAGE DU CHARGEMENT
+2026-06-28 02:24:18,908 - INFO - ======================================================================
+2026-06-28 02:24:18,959 - INFO - Connexion prete: database/ecommerce.db
+2026-06-28 02:24:18,974 - INFO - Chargement de products_clean...
+2026-06-28 02:24:19,008 - INFO - 20 lignes chargees dans products_clean
+2026-06-28 02:24:19,017 - INFO - Chargement de users_clean...
+2026-06-28 02:24:19,041 - INFO - 10 lignes chargees dans users_clean
+2026-06-28 02:24:19,049 - INFO - Chargement de orders_clean...
+2026-06-28 02:24:19,073 - INFO - 14 lignes chargees dans orders_clean
+2026-06-28 02:24:19,082 - INFO - Chargement de user_summary...
+2026-06-28 02:24:19,105 - INFO - 5 lignes chargees dans user_summary
+2026-06-28 02:24:19,112 - INFO - Chargement de product_summary...
+2026-06-28 02:24:19,134 - INFO - 10 lignes chargees dans product_summary
+2026-06-28 02:24:19,143 - INFO - Chargement de monthly_summary...
+2026-06-28 02:24:19,165 - INFO - 2 lignes chargees dans monthly_summary
+2026-06-28 02:24:19,165 - INFO - Creation des VUES SQL...
+2026-06-28 02:24:19,183 - INFO - Vues creees
+2026-06-28 02:24:19,183 - INFO - Exemple de donnees dans la base :
+2026-06-28 02:24:19,183 - INFO - Top 5 Produits (Revenus):
+2026-06-28 02:24:19,184 - INFO -    Produit 1: 2199.0$ de revenus
+2026-06-28 02:24:19,184 - INFO -    Produit 5: 1390.0$ de revenus
+2026-06-28 02:24:19,184 - INFO -    Produit 12: 342.0$ de revenus
+2026-06-28 02:24:19,184 - INFO -    Produit 3: 335.94$ de revenus
+2026-06-28 02:24:19,184 - INFO -    Produit 10: 218.0$ de revenus
+2026-06-28 02:24:19,185 - INFO - Top 5 Clients (Depenses):
+2026-06-28 02:24:19,185 - INFO -    john doe: 3376.74$ depenses
+2026-06-28 02:24:19,185 - INFO -    don romer: 560.0$ depenses
+2026-06-28 02:24:19,185 - INFO -    kevin ryan: 460.78$ depenses
+2026-06-28 02:24:19,185 - INFO -    david morrison: 283.9$ depenses
+2026-06-28 02:24:19,185 - INFO -    william hopkins: 9.85$ depenses
+2026-06-28 02:24:19,186 - INFO - CHARGEMENT TERMINE
+2026-06-28 02:24:19,186 - INFO - ================================================================================
+2026-06-28 02:24:19,186 - INFO - PIPELINE ETL TERMINE AVEC SUCCES !
+2026-06-28 02:24:19,186 - INFO - Duree totale: 4.74 secondes
+2026-06-28 02:24:19,186 - INFO - ================================================================================
